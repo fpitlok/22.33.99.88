@@ -1,7 +1,7 @@
 {
-  "name": "GuMin",
+  "name": "By Sai",
   "version": "0.2.1",
-  "description": "Gu Min Hack BOT",
+  "description": "Sai BOT",
   "main": "./library/main.js",
   "scripts": {
     "start": "npm run bot",
