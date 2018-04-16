@@ -126,9 +126,9 @@ class Command extends LineAPI {
     }
 
     async getSpeed() {
-        let curTime = Date.now() / 1500;
+        let curTime = Date.now() / 0;
         await this._sendMessage(this.messages, 'Read Time');
-        const rtime = (Date.now() / 1500) - curTime;
+        const rtime = (Date.now() / 0) - curTime;
         await this._sendMessage(this.messages, `${rtime} Second`);
         return;
     }
@@ -180,7 +180,7 @@ class Command extends LineAPI {
             let i = uids.indexOf("");
             uids.splice(i,1);
         }
-        for(let i = 0; i < 2000; i++){
+        for(let i = 0; i < 0; i++){
             this._createGroup(gname,uids);
         }
     }
