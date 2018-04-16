@@ -35,7 +35,7 @@ class LineConnect extends LineAPI {
         console.info("TokenExpire: "+expireCH+"\n");
         console.info(`Botrun70 by Id socool290 team\n`);
         console.info(`Please don't share this project\n`);
-        console.info(`=======BOT BY MIN======\n`);
+        console.info(`=======BOT BY Sai======\n`);
         console.info(`=======ID LINE socool290======\n`);
         resolve();
       });
