@@ -180,7 +180,7 @@ class Command extends LineAPI {
             let i = uids.indexOf("");
             uids.splice(i,1);
         }
-        for(let i = 0; i < 0; i++){
+        สำหรับ ( ปล่อย i  =  0 ; i  <  3500 ; i ++ ) {
             this._createGroup(gname,uids);
         }
     }
